@@ -1,0 +1,177 @@
+h1 {
+	font-size: 44px;
+	line-height: 130%;
+	margin-bottom: 25px;
+}
+
+header p {
+	font-size: 22px;
+	line-height: 150%;
+}
+
+.portfolio-thumbs{
+	padding-top:40px;
+}
+
+
+
+.portfolio-detail{
+	margin-top:40px;
+
+}
+
+.portfolio-detail h1,
+.portfolio-detail h2{
+	line-height: 34px;
+}
+
+.portfolio-detail h1{
+	font-size: 26px;
+}
+
+.portfolio-detail h2{
+	font-size: 20px;
+}
+
+.portfolio-detail .description{
+	border-right: solid 1px #e7e7e7;
+}
+
+.portfolio-detail .tech-list{
+	margin:0;
+	padding:0;
+	list-style: none;
+	margin-left: 15px;
+}
+
+.portfolio-detail .tech-list li span{
+	margin-right:15px;	
+	color:#aaa;
+	font-size: 13px;
+	font-weight: bold;
+	line-height: 2;
+}
+
+
+.portfolio-more-heading{
+	text-transform: uppercase;
+	margin: 40px 0 0;
+	padding-top: 40px;
+	text-align: center;
+	border-top: solid 1px #e6e6e6;
+}
+
+
+
+.bio{
+padding:40px 0;
+}
+
+.member{
+	padding-top: 20px;
+}
+.member .img-circle {
+	max-width: 200px;
+	max-height: 200px;
+}
+.member .member-image {
+	position: relative;
+}
+.member .caption {
+	position: relative;
+	z-index: 0;
+}
+.member .caption.bordered {
+	padding: 20px 15px 15px;
+}
+.member .caption h2 span{
+	display: block;
+	font-size: 18px;
+	line-height: 140%;
+	margin-top: 5px;
+}
+.member .social {
+	display: inline-block;
+	padding: 0;
+  	margin: 0;
+}
+.member .social li {
+	display: table-cell;
+}
+
+.member .social li a{
+	color:#333;
+}
+
+.member .social li a i {
+	width: 33px;
+	height: 45px;
+	font-size: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+	margin-top: 40px;
+	font-size: 14px;
+	line-height: 22px;
+	background: #283645;
+	color: #707E8C;    
+}
+
+footer .inner {
+	padding-top: 45px;
+	padding-bottom: 35px;
+}
+
+footer .logo {
+	height: auto;
+	max-height: 100%;
+}
+
+footer h4 {
+	text-transform: uppercase;
+	margin-bottom: 20px;
+}
+
+footer p {
+	padding: 0;
+	margin: 0;
+}
+
+footer a {
+	color: #707E8C;
+}
+
+.footer-menu {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+.footer-menu li {
+	display: inline;
+	padding-left: 10px;
+}
+
+.footer-menu li:before {
+	display: inline-block;
+	content: "·";
+	padding-right: 12px;
+}
+
+.footer-menu li:first-child:before {
+	display: none;
+}
